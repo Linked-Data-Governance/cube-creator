@@ -1,0 +1,416 @@
+@prefix cube: <https://cube.link/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obsan: <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/> .
+@prefix schema1: <http://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis> a void:Dataset,
+        schema1:Dataset,
+        dcat:Dataset,
+        cube:Cube ;
+    dcterms:description "Types of degrees obtained in the field of health over the years." ;
+    dcterms:identifier "ch_degree_obsan_analysis" ;
+    dcterms:issued "2025-07-24" ;
+    dcterms:modified "2025-07-31T09:00:32.695Z" ;
+    dcterms:title "CH degree obsan analysis" ;
+    void:sparqlEndpoint <https://education.ld.admin.ch/query> ;
+    schema1:actionApplication "genid-59010f1324b34a92b676f48311db0bcb-6UDF8OHJ4WaM0rVb406",
+        "genid-59010f1324b34a92b676f48311db0bcb-6UDF8OHJ4WaM0rVb407" ;
+    schema1:contactPoint "genid-59010f1324b34a92b676f48311db0bcb-6UDF8OHJ4WaM0rVb2_b7375fb2925" ;
+    schema1:creativeWorkStatus <https://ld.admin.ch/vocabulary/CreativeWorkStatus/Draft> ;
+    schema1:dateCreated "2025-07-24" ;
+    schema1:dateModified "2025-07-31T09:00:32.695Z" ;
+    schema1:datePublished "2025-07-31" ;
+    schema1:description "Types of degrees obtained in the field of health over the years." ;
+    schema1:error <https://test.cube-creator.lindas.admin.ch/cube-project/ch-degree-obsan-analysis-2x9xbqdxovz/dataset#missing-values-error> ;
+    schema1:name "CH degree obsan analysis" ;
+    schema1:version "1" ;
+    schema1:workExample <https://ld.admin.ch/application/visualize>,
+        "genid-59010f1324b34a92b676f48311db0bcb-6UDF8OHJ4WaM0rVb397",
+        "genid-59010f1324b34a92b676f48311db0bcb-6UDF8OHJ4WaM0rVb398" ;
+    dcat:accessURL <https://education.ld.admin.ch/sparql> ;
+    dcat:contactPoint "genid-59010f1324b34a92b676f48311db0bcb-40E92246BD88DE4869CBEB2AB3F17CBD" ;
+    dcat:theme <https://register.ld.admin.ch/opendataswiss/category/health> ;
+    cube:observationConstraint <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/shape/> ;
+    cube:observationSet <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/> .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2013/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2013> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2013/594> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2013> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "594" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2013/775> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2013> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "775" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2013/836> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2013> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "836" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2013/878> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2013> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "878" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2014/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2014> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2014/526> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2014> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "526" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2014/859> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2014> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "859" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2014/924> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2014> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "924" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2014/942> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2014> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "942" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2015/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2015> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2015/576> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2015> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "576" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2015/890> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2015> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "890" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2015/942> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2015> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "942" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2015/997> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2015> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "997" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2016/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2016> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2016/1007> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2016> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1007" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2016/530> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2016> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "530" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2016/882> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2016> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "882" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2016/928> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2016> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "928" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2017/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2017> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2017/1114> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2017> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1114" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2017/569> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2017> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "569" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2017/941> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2017> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "941" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2017/999> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2017> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "999" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2018/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2018> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2018/1029> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2018> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "1029" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2018/1087> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2018> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1087" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2018/694> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2018> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "694" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2018/993> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2018> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "993" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2019/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2019> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2019/1015> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2019> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "1015" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2019/1089> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2019> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "1089" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2019/1128> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2019> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1128" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2019/695> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2019> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "695" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2020/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2020> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2020/1111> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2020> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "1111" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2020/1262> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2020> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1262" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2020/799> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2020> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "799" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2021/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2021> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2021/1088> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2021> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "1088" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2021/1118> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2021> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "1118" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2021/1343> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2021> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1343" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2021/935> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2021> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "935" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2022/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2022> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2022/1164> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2022> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "1164" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2022/1209> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2022> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "1209" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2022/1430> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2022> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1430" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2022/856> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2022> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "856" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2023/100> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2023> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Anerkannte ausländische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "100" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2023/1231> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2023> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Master-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Master> ;
+    obsan:var1 "1231" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2023/1284> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2023> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Eidgenössische Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Diplome> ;
+    obsan:var1 "1284" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2023/1305> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2023> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Bachelor-Diplome" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Bachelor> ;
+    obsan:var1 "1305" .
+
+<https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/observation/2023/834> a cube:Observation ;
+    time:year <https://ld.admin.ch/time/year/2023> ;
+    cube:observedBy <https://ld.admin.ch/office/V.1.4> ;
+    obsan:cat "Doktorate" ;
+    obsan:degree <https://education.ld.admin.ch/fatc/ch_degree_obsan_analysis/1/Degree/Doktorat> ;
+    obsan:var1 "834" .
+
