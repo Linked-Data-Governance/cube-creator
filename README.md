@@ -21,7 +21,7 @@ Cube Creator transforms your CSV data into semantic RDF data cubes that can be p
 
 Before starting with Cube Creator, ensure you have:
 
-- Access to the [Cube Creator platform](https://test.cube-creator.lindas.admin.ch/) 
+- Access to the [Cube Creator platform](https://test.cube-creator.lindas.admin.ch/)
 - CSV data files prepared according to the requirements
 - Basic understanding of your data structure and dimensions
 - Knowledge of the target publication platforms (visualize.admin.ch, opendata.swiss and LINDAS to query your data through SPARQL)
@@ -44,12 +44,12 @@ Before starting with Cube Creator, ensure you have:
 
 #### Data Formats
 
-| Data Type | Format                  | Example                 |
-| --------- | ----------------------- | ----------------------- |
+| Data Type | Format                  | Example               |
+| --------- | ----------------------- | --------------------- |
 | Date      | YYYY-MM-DD              | `2001-01-31`          |
 | DateTime  | YYYY-MM-DDThh:mm:ss     | `2001-01-31T17:30:00` |
 | Time      | hh:mm:ss                | `21:32:52`            |
-| Boolean   | true/false              | `true`, `false`     |
+| Boolean   | true/false              | `true`, `false`       |
 | Decimal   | Use . as separator      | `123.456`             |
 | Integer   | No thousands separators | `-2147483648`         |
 
@@ -77,6 +77,7 @@ Before starting with Cube Creator, ensure you have:
    - Click "+" to upload syntactically valid CSV files
    - Preview columns and first three rows
    - Multiple CSV files can be uploaded for complex cubes
+
 2. **Create Tables**
 
    **Cube Table (Required)**
@@ -90,6 +91,7 @@ Before starting with Cube Creator, ensure you have:
    - Create for multilingual concepts. Select the columns that you would like to include in the concept table. A concept table is created without checking the "Cube table" checkbox
    - Link to cube table using "Link to another table". This allows us to link a dimension to a concept (to treat the values of a dimension as a resource)
    - Provide translations and additional metadata
+
 3. **Configure Table Settings**
 
    **Identifier Template**
@@ -103,6 +105,7 @@ Before starting with Cube Creator, ensure you have:
 
    - Visual connection between CSV inputs and mapped tables
    - Used only within Cube Creator interface
+
 4. **Map Columns**
 
    **Target Properties**
@@ -142,16 +145,19 @@ Before starting with Cube Creator, ensure you have:
      - Blue (blinking): Running
      - Red: Failed
      - Green: Successful
+
 2. **Monitor Jobs**
 
    - View transformation history
    - Access detailed logs for debugging
    - Check error messages for failed transformations
+
 3. **Handle Errors**
 
    - **Invalid Datatype**: Data doesn't match selected type
    - Check error line numbers in logs
    - Verify data format matches dimension settings
+
 4. **Replace CSV (Optional)**
 
    - Update cube with new data
@@ -199,7 +205,7 @@ Before starting with Cube Creator, ensure you have:
 - **Interval**: Proportional intervals (e.g., temperature in Celsius)
 - **Ratio**: Has meaningful zero point (e.g., mass)
 
-**Units** (for Measurement Dimensions)
+**Units** (for Measurement Dimensions - every measurement dimension must have a unit)
 
 - Select from QUDT-based unit list
 - Use "Number (#)" for counts
@@ -253,6 +259,7 @@ Before starting with Cube Creator, ensure you have:
    - Click "Start publication" button
    - Monitor job in "Previous publications" list
    - Wait for green status indicator
+
 2. **Verify Publication**
 
    - Check availability on target platforms
